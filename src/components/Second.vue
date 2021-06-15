@@ -8,7 +8,7 @@
       <div class="second__text _left">Your Awesome Text</div>
       <div class="second__text _right">Your Awesome Text</div>
       <div class="second__text _top">Your Awesome Text</div>
-      <q-btn class="second__btn button" label="buy now"></q-btn>
+      <q-btn class="second__btn button _blue" label="buy now"></q-btn>
     </div>
   </div>
 </template>
@@ -36,22 +36,23 @@ export default class Second extends Vue {
     height 100%
     width 100%
     top 0
-    z-index 5
+    z-index 7
   &__fon2
     content ''
+    z-index: 6
     position absolute
     width 100%
     left 0px
     background url('../assets/fon3.png')  no-repeat
     background-size cover
-    height 106%
+    height 102%
     top -46px
   &__img-conainer
     position relative
     margin-top 300px
     width 600px
     height 550px
-    z-index 6
+    z-index 7
   &__img
     background url('../assets/shoe-white.png')  no-repeat
     background-size: cover

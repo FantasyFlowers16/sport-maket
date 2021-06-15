@@ -3,6 +3,7 @@
    <first></first>
    <second></second>
    <third></third>
+   <fourth></fourth>
   </q-page>
 </template>
 
@@ -10,10 +11,11 @@
 import First from 'components/First.vue'
 import Second from 'components/Second.vue'
 import Third from 'components/Third.vue'
+import Fourth from 'components/Fourth.vue'
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component({
-  components: { First, Second, Third }
+  components: { First, Second, Third, Fourth }
 })
 export default class PageIndex extends Vue {
 }
